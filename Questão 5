@@ -1,0 +1,24 @@
+programa
+{
+	funcao inicio ()
+	{
+	//algoritmo que leia 4 notas de um aluno
+	//e exiba a media final
+	
+	real n1, n2, n3, n4
+	real media, nota =0
+	
+	  enquanto(nota <= 4){
+	  	
+	  	escreva("\nDigite sua nota: ")
+	   leia(nota)
+	   
+	   nota = nota + 1
+	  	
+	  	
+	  	
+	  	 	
+	  }
+		
+	}
+}
