@@ -1,0 +1,15 @@
+programa
+{
+	funcao inicio ()
+	{
+	//Questao: repetir "algoritmo" cinco vezes	
+		
+		inteiro contador = 5
+		
+		enquanto(contador >= 1){
+			
+			escreva("\nAlgoritmo")
+			
+			contador = contador - 1		}
+	}
+}
