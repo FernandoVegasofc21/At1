@@ -1,0 +1,39 @@
+programa
+{
+	funcao inicio ()
+	{
+	inteiro numero, soma = 0
+     
+       escreva("\nDigite o Numero: ")
+       leia(numero)
+       
+       soma = soma + numero
+      
+      se(numero == 0){
+      	escreva("Fim da soma: ", soma)
+      	
+      	soma = 0 + numero
+      }
+	
+	enquanto(numero != 0){
+		escreva("\nDigite novamente: ")
+		leia(numero)
+		
+		
+		numero = numero + 0
+		soma = soma + numero
+		
+		se(numero == 0){
+			
+			escreva("\nFim da soma: ", soma)
+		}
+		senao{
+		
+		escreva("A soma é: ",soma)
+		}
+	}
+
+	}
+		
+	}
+}
