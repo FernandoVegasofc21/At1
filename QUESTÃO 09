@@ -1,0 +1,26 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro numero, par = 0
+		
+		inteiro contador = 1
+		 
+		 escreva("\nDigite o numero: ")
+		 leia(numero)
+		
+		enquanto(numero <= 10){
+			escreva("\nDigite o numero: ")
+			leia(numero)
+			
+			se(numero % 2 == 0){
+				par = par + 1
+			}
+			
+		contador = contador + 1
+			
+		}
+		escreva("São:", par, " digitados.")
+		
+	}
+}
