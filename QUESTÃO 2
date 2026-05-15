@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio ()
+	{
+	//QUESTAO 02: contagem regressiva:	
+	
+	inteiro numero = 10
+	
+	enquanto(numero >= 1 ){
+		
+		escreva("\n", numero)
+		
+		numero = numero - 1
+	}
+	
+		
+	}
+}
