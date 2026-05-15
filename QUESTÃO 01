@@ -1,0 +1,19 @@
+programa
+{
+	funcao inicio ()
+	{
+	//QUESTÃO 01: Desenvolva o algoritmo que exiba
+	// os numeros de 1 ate 10 utilizando a estrutura
+	// enquanto:
+	
+	inteiro resultado = 0
+	
+	enquanto (resultado <= 10){
+		
+		escreva("\n", resultado)
+		
+		resultado = resultado + 1
+	}
+		
+	}
+}
