@@ -1,0 +1,35 @@
+programa
+{
+	funcao inicio ()
+	{
+	// algor. que leia 5 numeros inteiros
+	// ao final, mostra qual dos 5 é maior
+	
+	inteiro numero, resultado 
+	inteiro maior = 0, 
+	
+	enquanto(resultado <=5){
+		escreva("\nDigite seu numero: ")
+		leia(numero)
+		
+		se(numero==0){
+			maior = numero
+		} 
+		  senao se(num > maior){
+		  	maior = numero
+		  }
+		  contador++
+		  	
+		  }
+		  se(resultado>0){
+		  	escreva("Este é o maior numero: ", maior)
+		  }
+		
+		
+
+		
+		
+		}
+		
+	}
+}
