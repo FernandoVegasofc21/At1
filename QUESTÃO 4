@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio ()
+	{
+		//QUESTAO 04: pede cinco numeros e soma cada um
+		
+		inteiro contador = 1
+		inteiro numero, soma = 0
+		
+		enquanto(numero<=5){
+			
+			escreva("\nDigite seu numero: ")
+			leia(numero)
+			
+		  contador = numero + 1
+		  soma = soma + numero
+		  
+		  escreva("O resultado é: ", soma)
+		}
+		
+	}
+}
